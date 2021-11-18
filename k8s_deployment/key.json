@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "divine-apogee-329406",
+  "private_key_id": "c495614303282dea1005e2a09537e8fd7f7c39c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIYTtwkPUFlsyw\n9cVcbNI0rbGvcydH03EknEqX/vQq9+Q5JuuDLcBKkrqjmTR5UYg/fKPWeRcaKeMN\nuJeToTBOroq/jHsPEHLe5URUqLHtUi4dvq4Ml1MMRrRXQA2cm3tmSvM+ETMnNWNK\ne6x29fdsE8AyynG3cWgRKRYv19MmGWg9StdR46V8X9G865bxC6L58J4OIrbkX9M9\nqZFZSyD+rXrhYJWHFOSP5PC3jgqgb11Y5s4j2C6REIe3MKd0lxN5p5xaisMqTALh\njLT+ODiWf8sFFM14MpywNuQBaDFscUYTyTpIKL3HVUxsmhO0jRQmBFRG0hJQaAJC\nlqUuFyx/AgMBAAECggEARky6jlEE7XuM/66SGc2B6AJiOtQzHUNkx/vfPbkwT5zd\noGFzsfeMpX0Z5siavM9qdh+T2WxtOvwkEQ3Ie/5KlOgufGpcSBo0uteDpBH1LnYt\nALmDlZ5HgCCUJ6IsxFtWLTqxYP6mzCQyXBDMnoXH0s6RGSCmSb4LTS31fz6AcTZM\ndsIUM+nryqt32oeVQMVHOnh3Ouzjs2ZfYEFJQlwmgLUIsSOxXugoR2/jcxZAawGS\n36zX6Ap3doAaZFSCldkChPFwsIobfaJQFg74+PldWuItefV8K5zuokJaQNEQ3uYJ\nqJ4QcRo24P8H8aSYVzl3hHWX3qlxIIbocjS3SfBMeQKBgQDxrIJXjZETdRDkaGEw\n3guDzRMyeOd3XpjfC2/dKwBfGw0Sq6nU88sPFKrftAd0DI3knZh6qLCr1aMyiW2S\nkYeZKXlGNk4L0nfGxl+jAWwuDYaftktK3yestILl9KikZvrJKqjngYtGDfrmOXPG\nZirnWxWBO2aG6uq2sJMDq9ByqQKBgQDUQhII0l3lpPVNm0U97Sk3tkNAC1zPdHlY\nrJTXcNdh1OPnJE0tzhNyj0hxGd0u7u9rGc3N/v0YbKiM6qh6SVZAwZT4BRvMSJgh\ncnMkZIeEuRxwGRrMa9CkbOGKrT4D2wmaCR+CiJdPjMusG9FX+u4k6R26ggLZAb0r\n7+2f3WnG5wKBgQDxBHkM9fs8K2DIWayr/pX/QPMnP9qfenD86DwMlwkM0D6OYzLB\nVM0q4hKzfKh+PNL5r43Urg1boXjbOqFTLd3MiscOlbPqKGEZlNbmCtInb4fWGggm\nyDyaCYAN85yIMMdk/i1qjBAosmKJXbyvnU6mYnkk4+eRIBEqVxiW7a+52QKBgQC5\n2Je9zaOVPNfjeX4o+IxMUXOUkd5TbmIJOCKieBS9fg+GBIzm/Dae6cG99a1qOJ68\nob1HDmpAhnMV3yhg2fGBhX2Po7lxJma9cl5KkRLvLL0vkWubbRMjxIm+SG2yJojD\nrBVAz6PcbSSvrzOe2wDEpK/463je1NzzqYHfpZfGJQKBgEgQ6HzfLUpjhayph+vd\nPfPkU33MRe1y1OKWuvWSbVf5Z+3MgtgSr/r6RtxJBlkRS9f/ej1QyQfdMZK4k3q2\nloLTl0f0wubSVMRw6rjxwMC9+nc1SYB7sPLtr5mK3HGG0SPBbJ0frHjGT+JbwUZ5\nVgru6RJnxtpo04ZuNk0YUCoK\n-----END PRIVATE KEY-----\n",
+  "client_email": "pdtrung1994@divine-apogee-329406.iam.gserviceaccount.com",
+  "client_id": "114795497735036186262",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pdtrung1994%40divine-apogee-329406.iam.gserviceaccount.com"
+}
