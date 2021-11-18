@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    id: app
+  name: app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      id: app
+  template:
+    metadata:
+      labels:
+        id: app
+    spec:
+      containers:
+      - image: registry.gitlab.com/pdtrung1994/K8s_HPA:lastest
+        name: app
+        imagePullPolicy: Always
