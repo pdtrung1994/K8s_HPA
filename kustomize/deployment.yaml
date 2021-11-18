@@ -18,3 +18,21 @@ spec:
       - image: verces/k8s-hpa:lastest
         name: app
         imagePullPolicy: Always
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    id: lb
+  name: lb
+spec:
+  ports:
+  - name: 5000-5000
+    port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    id: app
+  type: LoadBalancer
