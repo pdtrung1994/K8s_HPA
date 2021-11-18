@@ -1,13 +1,9 @@
-FROM python:3.9
+FROM python:3.7.2-slim
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY requirements.txt /usr/src/app
+RUN pip install -r requirements.txt
 
+COPY . /usr/src/app
 
-COPY ./app.py /opt/
-COPY ./requirement.txt /opt/
-RUN pip install -r /opt/requirement.txt
-RUN chmod a+x /opt/app.py
-WORKDIR /opt/
-
-RUN ./app.py
 ENTRYPOINT ["python3", "app.py"]
-
-EXPOSE 8000
