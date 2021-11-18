@@ -36,7 +36,7 @@ CORS(app)
 
 def runcalc():
     x = Decimal(0)
-    for i in range(30000001):
+    for i in range(30000000):
         x = math.sqrt(i)
     return x
 
