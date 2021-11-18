@@ -15,6 +15,6 @@ spec:
         id: app
     spec:
       containers:
-      - image: registry.gitlab.com/pdtrung1994/K8s_HPA:lastest
+      - image: gitlab.com/pdtrung1994/K8s_HPA:lastest
         name: app
         imagePullPolicy: Always
