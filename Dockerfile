@@ -1,7 +1,9 @@
 FROM python:3.9
-RUN pip install -r requirement.txt
+
 
 COPY ./app.py /opt/
+COPY ,/requirement.txt /opt/
+RUN pip install -r /opt/requirement.txt
 RUN chmod a+x /opt/app.py
 WORKDIR /opt/
 
