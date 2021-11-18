@@ -7,6 +7,6 @@ RUN pip install -r /opt/requirement.txt
 RUN chmod a+x /opt/app.py
 # WORKDIR /opt/
 
-# RUN /opt/app.py
+RUN /opt/app.py
 # ENTRYPOINT ["python3", "app.py"]
 EXPOSE 8000
