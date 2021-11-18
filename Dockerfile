@@ -1,5 +1,5 @@
 FROM python:3.9
-RUN pip install -r requirements.txt
+RUN pip install -r requirement.txt
 
 COPY ./app.py /opt/
 RUN chmod a+x /opt/app.py
