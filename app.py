@@ -14,7 +14,7 @@ def calc_pi():
     # Initialize sum
     s = Decimal(0)
  
-    for i in range(1000000):
+    for i in range(1000002):
  
         # even index elements are positive
         if i % 2 == 0:
