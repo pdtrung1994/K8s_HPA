@@ -9,3 +9,5 @@ WORKDIR /opt/
 
 RUN ./app.py
 ENTRYPOINT ["python3", "app.py"]
+
+EXPOSE 8000
