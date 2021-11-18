@@ -18,9 +18,12 @@ spec:
       - image: verces/k8s-hpa:lastest
         name: app
         imagePullPolicy: Always
-
+        resources:
+          request:
+            cpu: "250m"
+          limit:
+            cpu: "500m"
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
