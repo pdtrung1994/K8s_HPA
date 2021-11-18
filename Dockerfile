@@ -2,8 +2,8 @@
 
 # RUN which python3
 # COPY ./app.py /opt/
-# COPY ./requirement.txt /opt/
-# RUN pip install -r /opt/requirement.txt
+# COPY ./requirements.txt /opt/
+# RUN pip install -r /opt/requirements.txt
 # RUN chmod a+x /opt/app.py
 # # WORKDIR /opt/
 
