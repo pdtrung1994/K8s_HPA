@@ -57,7 +57,7 @@ jobs:
       run: |-
         docker login -u verces -p 131626Nite
         docker build \
-          --tag "verces/k8s-hpa/$IMAGE:$GITHUB_SHA" \
+          --tag "verces/k8s-hpa:lastest" \
           --build-arg GITHUB_SHA="$GITHUB_SHA" \
           --build-arg GITHUB_REF="$GITHUB_REF" \
           .
@@ -65,7 +65,7 @@ jobs:
     # Push the Docker image to Google Container Registry
     - name: Publish
       run: |-
-        docker push "verces/k8s-hpa/$IMAGE:$GITHUB_SHA"
+        docker push "verces/k8s-hpa:lastest"
 
     # Set up kustomize
     - name: Set up Kustomize
