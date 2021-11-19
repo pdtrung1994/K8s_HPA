@@ -1,3 +1,20 @@
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: cloudhpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: cloudhpa
+  minReplicas: 2
+  maxReplicas: 20
+  metrics:
+    - resource:
+        name: cpu
+        targetAverageUtilization: 100
+      type: Resource
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,11 +35,11 @@ spec:
       - image: verces/k8s-hpa:lastest
         name: app
         imagePullPolicy: Always
-        # resources:
-        #   request:
-        #     cpu: "250m"
-        #   limit:
-        #     cpu: "500m"
+        resources:
+          requests:
+            cpu: "50m"
+          limits:
+            cpu: "100m"
 ---
 apiVersion: v1
 kind: Service

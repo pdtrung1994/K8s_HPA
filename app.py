@@ -42,7 +42,7 @@ def calc_pi():
 
 @app.route('/')
 def dashboard():
-    getcontext().prec = 3000
+    getcontext().prec = 500
     return str(calc_pi())
     # return str(runcalc())
 
