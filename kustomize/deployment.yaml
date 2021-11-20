@@ -22,7 +22,7 @@ metadata:
     id: app
   name: app
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       id: app
