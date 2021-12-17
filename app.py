@@ -14,7 +14,7 @@ def calc_pi():
     # Initialize sum
     s = Decimal(0)
  
-    for i in range(50000):
+    for i in range(40000):
  
         # even index elements are positive
         if i % 2 == 0:
@@ -42,7 +42,7 @@ def calc_pi():
 
 @app.route('/')
 def dashboard():
-    getcontext().prec = 35
+    getcontext().prec = 30
     return str(calc_pi())
     # return str(runcalc())
 
