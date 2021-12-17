@@ -8,17 +8,17 @@ spec:
     kind: Deployment
     name: app
   minReplicas: 2
-  maxReplicas: 40
+  maxReplicas: 100
   metrics:
     - type: Resource
       resource:
         name: cpu
         target:
           type: Utilization
-          averageUtilization: 50
+          averageUtilization: 25
   behavior:
     scaleDown:
-      stabilizationWindowSeconds: 300
+      stabilizationWindowSeconds: 120
       policies:
       - type: Percent
         value: 100
@@ -56,7 +56,7 @@ spec:
         imagePullPolicy: Always
         resources:
           requests:
-            cpu: "50m"
+            cpu: "100m"
           limits:
             cpu: "100m"
 ---
